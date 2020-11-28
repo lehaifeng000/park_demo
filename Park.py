@@ -122,6 +122,8 @@ class Park(QMainWindow):
             aq = QSequentialAnimationGroup(parent=self)
             aq.addAnimation(a1)
             aq.start()
+        else:
+            pass
 
     def car_out(self, index):
         if index < self.cars.now_size:

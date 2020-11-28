@@ -12,5 +12,7 @@ if __name__ == '__main__':
 
     park.show()
 
-
     sys.exit(app.exec_())
+
+import numpy
+numpy.arange()
